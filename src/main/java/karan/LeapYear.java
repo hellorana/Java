@@ -14,7 +14,6 @@ x = scanner.nextInt();
 
 System.out.println( "Enter the second number : ");
 y = scanner.nextInt();
-
 System.out.println( "Enter the third number :");
 z = scanner.nextInt();
 
