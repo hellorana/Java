@@ -28,14 +28,18 @@ com/java/generics/GenericClassExample.class
 com/java/basicexamples/Armstrong.class
 com/java/generics/Basic.class
 com/java/sorting/BubbleSort.class
+karan/Switch.class
+karan/Loops_ProdTable.class
 com/java/java8/Employee.class
 com/java/statements/WhileLoop.class
+karan/CalculatorNew.class
 com/java/generics/GenericsMethod.class
 com/java/generics/SwapExample.class
 com/java/extraPractice/TypeCasting.class
 com/java/arrays/BasicArrays.class
 com/java/arrays/Basic2DArray.class
 com/java/java8/MovieLambda$1.class
+karan/CalculatorWithSwitch.class
 com/java/basics/VariableTypes.class
 com/java/collections/BasicArrayList$1.class
 com/java/exceptionhandling/InvalidProductException.class
@@ -48,6 +52,7 @@ com/java/collections/PaymentDigitsExample.class
 com/java/basicexamples/MatricesSum.class
 com/java/statements/ForEachLambda.class
 com/java/exceptionhandling/CheckedExceptionExample.class
+karan/CustomerCare_SW.class
 com/java/arrays/ArrayCopying.class
 com/java/generics/MaximumTest.class
 com/java/basicexamples/Palindrome.class
@@ -63,6 +68,7 @@ com/java/extraPractice/BasicJavaExample.class
 com/java/collections/BasicArrayList.class
 com/java/basics/ImmutableClassExample.class
 com/java/statements/DoWhileLoop.class
+karan/SumOfNumer.class
 com/java/collections/BasicHashMap.class
 com/java/basicexamples/PrimeNumber.class
 com/java/basicexamples/FactorialSeries.class
