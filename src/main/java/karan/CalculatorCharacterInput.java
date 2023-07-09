@@ -1,25 +1,23 @@
 package karan;
 
-
 import java.util.Scanner;
 
-public class CalculatorWithSwitch {
+public class CalculatorCharacterInput {
     public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Calculator");
-        System.out.println("1. Addition");
-        System.out.println("2. Subtraction");
-        System.out.println("3. Multiplication");
-        System.out.println("4. Division");
-        System.out.println("5. Modulus");
-        System.out.println( "Enter the value  ");
+        System.out.println(" + (Addition)");
+        System.out.println(" - (Subtraction)");
+        System.out.println(" * (Multiplication)");
+        System.out.println(" / (Division)");
+        System.out.println(" % (Modulus)");
+        System.out.println(" Enter Character for Operation  ");
 
-        int input = scanner.nextInt();
+        char input = scanner.next().charAt(0);
+        if (input != '+' && input != '-' && input != '*' && input != '/' && input != '%') {
+            System.out.println("Wrong Character");
+        } else {
 
-        if(input > 5) {
-            System.out.println(" Invalid Entry");
-        }
-else {
             System.out.println(" Enter the first value");
             int num1 = scanner.nextInt();
             System.out.println(" Enter the second value");
@@ -27,31 +25,32 @@ else {
 
 
             switch (input) {
-                case 1:
+                case '+':
                     int sum = num1 + num2;
                     System.out.println("Sum of the values " + sum);
                     break;
-                case 2:
+                case '-':
                     int sub = num1 - num2;
                     System.out.println("Sub of the values " + sub);
                     break;
-                case 3:
+                case '*':
                     int mult = num1 * num2;
                     System.out.println(" Multiplication of the value " + mult);
                     break;
-                case 4:
+                case '/':
                     int div = num1 / num2;
                     System.out.println("Division of the value " + div);
                     break;
-                case 5:
+                case '%':
                     int mod = num1 % num2;
                     System.out.println("Modulus of the value " + mod);
                     break;
                 default:
                     System.out.println(" Wrong Input");
 
-            }
-        }
 
+            }
+
+        }
     }
 }
