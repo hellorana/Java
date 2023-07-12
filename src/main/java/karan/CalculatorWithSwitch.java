@@ -40,7 +40,7 @@ else {
                     System.out.println(" Multiplication of the value " + mult);
                     break;
                 case 4:
-                    int div = num1 / num2;
+                    double div = num1 / num2;
                     System.out.println("Division of the value " + div);
                     break;
                 case 5:
