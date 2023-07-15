@@ -1,6 +1,7 @@
 com/java/collections/ArrayListToArrayExample.class
 com/java/oops/polymorphism/Human.class
 com/java/oops/aggregation/Product.class
+karan/July15/Methods_Calculators.class
 com/java/HelloWorld.class
 com/java/Name.class
 com/java/generics/Pair.class
@@ -10,6 +11,7 @@ com/java/basics/HashcodeExample.class
 com/java/exceptionhandling/CustomExceptionExample.class
 com/java/sorting/SelectionSort.class
 com/java/arrays/ToFindMinimum.class
+karan/July15/Calculator.class
 com/java/java8/MovieLambda.class
 com/java/java8/Movie.class
 com/java/oops/aggregation/LineItem.class
@@ -42,12 +44,14 @@ com/java/arrays/BasicArrays.class
 com/java/arrays/Basic2DArray.class
 com/java/java8/MovieLambda$1.class
 karan/CalculatorWithSwitch.class
+karan/July15/PracticeCar.class
 com/java/basics/VariableTypes.class
 com/java/collections/BasicArrayList$1.class
 com/java/exceptionhandling/InvalidProductException.class
 karan/DecisionMakingStatement.class
 com/java/arrays/AdditionOf2DArray.class
 karan/CheckEvenOrOdd.class
+karan/July15/NewClassCar.class
 com/java/oops/composition/BasicImplementation.class
 com/java/App.class
 com/java/collections/PaymentDigitsExample.class
@@ -60,6 +64,9 @@ com/java/generics/MaximumTest.class
 com/java/basicexamples/Palindrome.class
 com/java/oops/Author.class
 com/java/exceptionhandling/BasicExample.class
+karan/assignments/SimpleGreatestNumber.class
+karan/July15/NestedLooDemo.class
+karan/July15/MethodsDemo.class
 com/java/statements/IfElse.class
 com/java/collections/BasicLinkedList.class
 com/java/oops/aggregation/BasicImplementation.class
@@ -74,4 +81,5 @@ karan/SumOfNumer.class
 com/java/collections/BasicHashMap.class
 com/java/basicexamples/PrimeNumber.class
 com/java/basicexamples/FactorialSeries.class
+karan/July11/ControlStatementsDemo.class
 practice/basics/LeapYear.class

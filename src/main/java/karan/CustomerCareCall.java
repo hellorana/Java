@@ -34,12 +34,24 @@ public class CustomerCareCall {
                     System.out.println("Please provide your Contact Number and representative call you back ");
                     input = sc.nextInt();
                     String inputLength= String.valueOf(input);
+                    switch (input) {
+                        case 1:
+                            if (inputLength.length() == 10){
+                            System.out.println("Thanks, we will cal you when next representative available");
+                    }
+                            break;
+}
 
-                    while (inputLength.length()>10 || inputLength.length()<10){
+                    while (inputLength.length()>10){
                         System.out.println("Entered value is not acceptable");
                         System.out.println("Contact number should be 10 digit and not start with Zero");
                         input = sc.nextInt();
                     }
+                        while (inputLength.length()<10){
+                            System.out.println("Entered value is not acceptable");
+                            System.out.println("Contact number should be 10 digit and not start with Zero");
+                            input = sc.nextInt();
+                        }
                     break;
                     case 2:
                         System.out.println("Please contact us on below's number");
